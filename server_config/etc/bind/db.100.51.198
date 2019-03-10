@@ -1,0 +1,37 @@
+$TTL	604800
+@	IN	SOA	localhost. root.localhost. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	localhost.
+0	IN	PTR	r1.example.net.
+1	IN	PTR	r2.example.net.
+2	IN	PTR	r3.example.net.
+3	IN	PTR	r4.example.net.
+4	IN	PTR	r5.example.net.
+5	IN	PTR	r6.example.net.
+6	IN	PTR	vsrx.example.net.
+
+9	IN	PTR	ether1.r1.example.net.
+10	IN	PTR	ether1.r2.example.net.
+
+13	IN	PTR	ether3.r2.example.net.
+14	IN	PTR	ether2.r3.example.net.
+
+17	IN	PTR	ether1.r3.example.net.
+18	IN	PTR	ether2.r4.example.net.
+
+21	IN	PTR	ether1.r4.example.net.
+22	IN	PTR	ether1.r6.example.net.
+
+25	IN	PTR	ether3.r4.example.net.
+26	IN	PTR	ether1.r5.example.net.
+
+29	IN	PTR	ether3.r5.example.net.
+30	IN	PTR	ether2.r2.example.net.
+
+33	IN	PTR	ethe43.r2.example.net.
+34	IN	PTR	ge-0-0-0.vsrx.example.net.
